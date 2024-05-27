@@ -1,0 +1,190 @@
+(footprint "Panasonic_ETQP4M3R3KVC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 -7 0)
+		(layer "F.SilkS")
+		(uuid "448d383d-3a0f-4d78-9b3f-93b05ed60fb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Panasonic_ETQP4M3R3KVC"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "79e86b65-586e-4886-a4b3-8faf23d443f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Panasonic_ETQP4M3R3KVC"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6120bab-8d37-4646-84c0-59debd1596fb")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "771d0168-4909-47bf-b498-e26c5afa50e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56f02851-5397-4464-b86a-120d4b1f5ac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.35 -5.5)
+		(end 5.35 -5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f5d5d4c-c0fa-47d1-b469-8761abd38803")
+	)
+	(fp_line
+		(start -5.35 5.5)
+		(end 5.35 5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59fd3c9d-9cac-4201-9333-8f6a9989d17f")
+	)
+	(fp_rect
+		(start -6.282 -5.75)
+		(end 6.282 5.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ab3684d9-93fa-430f-8ff4-e5c4d3a68b17")
+	)
+	(fp_rect
+		(start -5.85 -5.5)
+		(end 5.85 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c379c4c6-4166-4fbe-ac58-75ba12b27ed2")
+	)
+	(pad "1" smd rect
+		(at -4.313 0)
+		(size 3.439 3.251)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "721aacb0-32b6-495a-ae9a-8b7a5381b3a8")
+	)
+	(pad "2" smd rect
+		(at 4.313 0)
+		(size 3.439 3.251)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a74a3e5c-4f5f-41c3-befe-e71a29563f28")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "2ead9cd7-c330-45b7-995d-6c3acab9ae12")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -5.85 -5.5) (xy -5.85 -1.627) (xy -2.5935 -1.627) (xy -2.5935 1.627) (xy -5.85 1.627) (xy -5.85 5.5)
+				(xy 5.85 5.5) (xy 5.85 1.627) (xy 2.5935 1.627) (xy 2.5935 -1.627) (xy 5.85 -1.627) (xy 5.85 -5.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "ff627cab-4879-41db-b9f7-f1821f9fac62")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -5.85 -5.5) (xy -5.85 -1.627) (xy -2.5935 -1.627) (xy -2.5935 1.627) (xy -5.85 1.627) (xy -5.85 5.5)
+				(xy 5.85 5.5) (xy 5.85 1.627) (xy 2.5935 1.627) (xy 2.5935 -1.627) (xy 5.85 -1.627) (xy 5.85 -5.5)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/Library/Library.3dshapes/Panasonic_ETQP4M3R3KVC.step"
+		(offset
+			(xyz 0 0 3.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
