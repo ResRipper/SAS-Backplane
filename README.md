@@ -3,15 +3,34 @@
 > [!WARNING]
 > Not final version, DO NOT USE
 
-## Design spec
+## Spec
 
 - SFF-8087 -> 4x SAS 3.5 inch drive
 - Power: 120 W
 
-    | PWR Lane | Current per drive (A) | Total capacity (W) |
-    | -------- | --------------------- | ------------------ |
-    | 12V      | 2                     | 96                 |
-    | 5V       | 1.2                   | 24                 |
+    | PWR Lane | Source   | Current per drive (A) | Total capacity (W) |
+    | -------- | -------- | --------------------- | ------------------ |
+    | 12V      | PSU      | 2                     | 96                 |
+    | 5V       | 12V Lane | 1.2                   | 24                 |
+
+## Change log
+
+- v1.0 -> v1.1
+    - SCH: v1.5
+        - Use 2x `TPS82130` for 12V -> 5V conversion
+            - Lower BOM count / cost
+            - Smaller physical size
+        - +12V power input connector
+          - 4x M4 screws (2x +12, 2x GND) -> 1x ATX 4 pin connector
+        - +12V filter group
+          - 47uF cap -> 22uF ceramic cap
+        - Add two 47uF caps to +12V input
+        - Remove header for drive stat, remove `DNP` attribute for activity LEDs
+
+    - PCB: v1.2
+        - Change drive layout to vertical
+        - Increase slot height from `27mm` to `28mm` for more airflow
+        - Shrink board size to `100 x 90 mm`
 
 ## References
 
